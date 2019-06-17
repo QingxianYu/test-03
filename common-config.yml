@@ -17,7 +17,7 @@ mybatis:
   type-aliases-package: com.springcloud.entity
   configuration:
     map-underscore-to-camel-case: true     #开启Mybatis驼峰命名规则
-    log-impl: org.apache.ibatis.loggin.stdout.StdOutImpl  #设置MyBatis显示SQL语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #设置MyBatis显示SQL语句
     
 pagehelper:
   helper-dialect: mysql       #设置数据库
